@@ -4,7 +4,7 @@ import Tag from './tagChip';
 import Image, { StaticImageData } from 'next/image';
 
 interface CardProps {
-    avatar: StaticImageData;
+    avatar: StaticImageData | string;
     title: string;
     description: string;
     position: string;
@@ -17,9 +17,9 @@ const Card: React.FC<CardProps> = ({ avatar, title, description, position, tags,
     
 
     return (
-        <div className="flex px-12 pt-6 bg-white rounded-3xl shadow hover:bg-gray-100 space-x-6 max-w-mi">
+        <div className="flex px-12 py-6 bg-white rounded-3xl shadow hover:bg-gray-100 space-x-6 max-w-mi border">
             <div className=''>
-                <Image src={avatar} className="rounded-full w-52"
+                <Image src={avatar} className="w-52"
                     alt="Logo" width={66} height={59} />
             </div>
             <div className='flex flex-col space-y-2 mb-1.5'>
@@ -30,7 +30,7 @@ const Card: React.FC<CardProps> = ({ avatar, title, description, position, tags,
                     <div className='text-gray-400 text-base'>{address}</div>
                 </div>
                 <p className='text-base'>{description}</p>
-                <div className='flex h-8 my-3 space-x-2'>
+                <div className='flex h-8 mt-3 space-x-2'>
                     <Pos position={position}></Pos>
                     <div
                         className="min-h-[1em] w-px self-stretch bg-gray-200">
@@ -38,7 +38,7 @@ const Card: React.FC<CardProps> = ({ avatar, title, description, position, tags,
                     </div>
                     <div className='flex '>
                         {tags.map((tag, index) => (
-                            <Tag key={index} tag={tag}></Tag>
+                            <Tag key={index} num={index} tag={tag}></Tag>
 
                         ))}
                     </div>
