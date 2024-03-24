@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Epilogue } from "next/font/google";
+import { Epilogue, Poppins, Open_Sans } from "next/font/google";
 import "./globals.css";
+
 
 const epilogue = Epilogue({ subsets: ["latin"] });
 

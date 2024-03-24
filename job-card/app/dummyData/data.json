@@ -1,5 +1,6 @@
 [
     {
+      "id": 0,
       "imageUrl": "https://res.cloudinary.com/dmegiw31y/image/upload/v1710423619/a2sv/rt441m4pmc5ohdjnkmin.svg",
       "title": "Social Media Assistant",
       "address": "Addis Ababa, Ethiopia",
@@ -14,12 +15,12 @@
         "Stay on top of trends on social media platforms, and suggest content ideas to the team",
         "Engage with online communities"
       ],
-      "wantedCandidate": {
-        "Young(18-24 year old) Female social media manager": "",
-        "Passionate & Reliable": "Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments.", 
-        "Adaptable, Team Player & Strong Communication Skills": "Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback.",
-        "Respectful": "Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."
-      },
+      "wantedCandidate": [
+        ["Young(18-24 year old) Female social media manager", ""],
+        ["Passionate & Reliable", "Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments."], 
+        ["Adaptable, Team Player & Strong Communication Skills", "Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback."],
+        ["Respectful", "Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."]
+      ],
       "whenWhere": "The onboading event for this event will take place in Jan 18th, 2023 in AAU Auditorium",
       "about": {
         "Posted On": "Jul 1, 2023",
@@ -39,6 +40,7 @@
 
     },
     {
+      "id": 1,
       "imageUrl": "https://res.cloudinary.com/dmegiw31y/image/upload/v1710423619/a2sv/nvhvmophpfsu29bbllsf.svg",
       "title": "IT Professional",
       "subTitle": "Driving Innovation Across Industries",
@@ -57,12 +59,12 @@
         "Stay on top of trends on social media platforms, and suggest content ideas to the team",
         "Engage with online communities"
       ],
-      "wantedCandidate": {
-        "Young(18-24 year old) Female social media manager": "",
-        "Passionate & Reliable": "Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments.", 
-        "Adaptable, Team Player & Strong Communication Skills": "Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback.",
-        "Respectful": "Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."
-      },
+      "wantedCandidate": [
+        ["Young(18-24 year old) Female social media manager", ""],
+        ["Passionate & Reliable", "Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments."], 
+        ["Adaptable, Team Player & Strong Communication Skills", "Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback."],
+        ["Respectful", "Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."]
+      ],
       "whenWhere": "The onboading event for this event will take place in Jan 18th, 2023 in AAU Auditorium",
       "about": {
         "Posted On": "Jul 1, 2023",
@@ -82,6 +84,7 @@
 
     },
     {
+      "id": 2,
       "imageUrl": "https://res.cloudinary.com/dmegiw31y/image/upload/v1710423620/a2sv/p7xg0fxporgk5vzauua4.svg",
       "title": "Data Analyst",
       "subTitle": "Harnessing Insights for Success",
@@ -100,12 +103,12 @@
         "Stay on top of trends on social media platforms, and suggest content ideas to the team",
         "Engage with online communities"
       ],
-      "wantedCandidate": {
-        "Young(18-24 year old) Female social media manager": "",
-        "Passionate & Reliable": "Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments.", 
-        "Adaptable, Team Player & Strong Communication Skills": "Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback.",
-        "Respectful": "Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."
-      },
+      "wantedCandidate": [
+        ["Young(18-24 year old) Female social media manager", ""],
+        ["Passionate & Reliable", "Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments."], 
+        ["Adaptable, Team Player & Strong Communication Skills", "Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback."],
+        ["Respectful", "Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."]
+      ],
       "whenWhere": "The onboading event for this event will take place in Jan 18th, 2023 in AAU Auditorium",
       "about": {
         "Posted On": "Jul 1, 2023",
@@ -125,6 +128,7 @@
 
     },
     {
+      "id": 3,
       "imageUrl": "https://res.cloudinary.com/dmegiw31y/image/upload/v1710423620/a2sv/p7xg0fxporgk5vzauua4.svg",
       "title": "Cyber Security Professional",
       "subTitle": "Protecting Against Evolving Threats",
@@ -143,12 +147,12 @@
         "Stay on top of trends on social media platforms, and suggest content ideas to the team",
         "Engage with online communities"
       ],
-      "wantedCandidate": {
-        "Young(18-24 year old) Female social media manager": "",
-        "Passionate & Reliable": "Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments.", 
-        "Adaptable, Team Player & Strong Communication Skills": "Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback.",
-        "Respectful": "Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."
-      },
+      "wantedCandidate": [
+        ["Young(18-24 year old) Female social media manager", ""],
+        ["Passionate & Reliable", "Genuine interest in our mission and a strong desire to make a positive impact, responsible, and committed to fulfilling volunteer commitments."], 
+        ["Adaptable, Team Player & Strong Communication Skills", "Able to work effectively in diverse teams; and contributes positively. Flexible and open to embracing new challenges and shifting priorities; Clear verbal and written communication, active listening, and constructive feedback."],
+        ["Respectful", "Embraces diversity, inclusive, and treats others with respect. Abides with all our rules and regulations."]
+      ],
       "whenWhere": "The onboading event for this event will take place in Jan 18th, 2023 in AAU Auditorium",
       "about": {
         "Posted On": "Jul 1, 2023",

@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ({ avatar, title, description, position, tags,
     
 
     return (
-        <div className="flex px-12 py-6 bg-white rounded-3xl shadow hover:bg-gray-100 space-x-6 max-w-mi border">
+        <div className="flex px-12 py-6 bg-white rounded-3xl hover:bg-gray-100 space-x-6 max-w-mi border">
             <div className=''>
                 <Image src={avatar} className="w-52"
                     alt="Logo" width={66} height={59} />
@@ -38,7 +38,7 @@ const Card: React.FC<CardProps> = ({ avatar, title, description, position, tags,
                     </div>
                     <div className='flex '>
                         {tags.map((tag, index) => (
-                            <Tag key={index} num={index} tag={tag}></Tag>
+                            <Tag key={index} num={index} tag={tag} detail={false}></Tag>
 
                         ))}
                     </div>

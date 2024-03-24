@@ -1,6 +1,4 @@
 import Card from "@/components/jobCard";
-import Image from "next/image";
-import avatar from '../images/image 2.png';
 import data from './dummyData/data.json';
 import Link from "next/link";
 
@@ -12,7 +10,7 @@ export default function Home() {
       
       <div className="flex justify-between w-mi">
         <div className="flex-col items-left space-y-1">
-          <p className="text-4xl font-bold text-mi font-black">Opportunieties</p>
+          <p className="text-4xl text-mi font-black">Opportunieties</p>
           <p className="text-gray-500 mt-4 text-base">Showing 73 results</p>
         </div>
         <div className="flex items-center">
@@ -24,7 +22,8 @@ export default function Home() {
         </div>
       </div>
       <div className="flex-col space-y-9">
-      {data.map((job, index) => (   
+      {data.map((job, index) => ( 
+                                <div>  
                                   <Link href={`/details/${index}`} key={index}>
                                     <Card 
                                       title={job.title} 
@@ -32,6 +31,7 @@ export default function Home() {
                                       position={job.position} tags={job.categories} company={job.company} 
                                       address={job.address} avatar={job.imageUrl}></Card>
                                   </Link>
+                                  </div>
                                 ))}
                                   
       </div>

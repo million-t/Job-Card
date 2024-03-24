@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,6 +16,8 @@ const config: Config = {
       },
       maxWidth: {
         'mi': '919px',
+        'dmi': '815px',
+        'sp': '293.5px',
       },
       width: {
         'mi': '919px',
@@ -22,6 +25,9 @@ const config: Config = {
       colors: {
         "mi": "#25324B",
         "mi-gray": "#7C8493",
+        "divide-gray": "#D6DDEB",
+        "about-gray": "#515B6F",
+        "skill-gray": "#F8F8FD",
       }
     },
   },
