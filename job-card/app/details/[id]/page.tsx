@@ -54,7 +54,7 @@ export default function DetailsPage() {
                     </div>
                 </div>
                 <div className='text-mi flex-col space-y-6'>
-                    <p className=" text-2xl  font-black">Ideal Candidate We Want</p>
+                    <p className=" text-2xl  font-black">When & Where</p>
                     <div className='flex items-center space-x-4'>
                         <div className='flex w-11 h-11 items-center justify-center border border-divide-gray rounded-full'>
                             <Image src={location} alt='plus-circle-icon' width={18} height={18}></Image>
